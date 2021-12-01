@@ -23,6 +23,7 @@
   padding: 0;
   display: flex;
   gap: 25px;
+  font-weight: 100;
 }
 .header-link > a {
   text-decoration: none;
@@ -71,12 +72,21 @@
   color: white;
 }
 
-.info-img {
+.hero-img {
+  width: 100%;
+}
+
+.info-img-container {
   width: 150px;
   height: 150px;
-  border-radius: 15px;
-  border: 3px #3882f6 solid;
   box-sizing: border-box;
+}
+
+.info-img {
+  width: 100%;
+  border: 3px #3882f6 solid;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .information {
